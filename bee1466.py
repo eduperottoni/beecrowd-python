@@ -66,5 +66,4 @@ for i, visit in enumerate(visits):
           .replace("[", "")
           .replace("]", "")
           .replace(",", ""))
-    if i < cases_num - 1:
-        print()
+    print()
