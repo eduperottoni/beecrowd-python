@@ -13,4 +13,3 @@ for i in range(int(input())):
                 diamonds_counter += 1
 
     print(diamonds_counter)
-    
