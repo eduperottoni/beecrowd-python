@@ -28,6 +28,10 @@ while True:
             for j in range(columns):
                 result[i][j] = 9 if matrix[i][j] else count_adjacents(matrix, (i, j))
 
-        print(result)
+        for i in result:
+            print(str(i)
+                  .replace('[', '')
+                  .replace(']', '')
+                  .replace(', ', ''))
     except EOFError:
         break
